@@ -1,0 +1,71 @@
+@import './mixins';
+@import './variables';
+
+/**
+ * <form-text-tags> tags styling
+ */
+.form-item__tags {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 27px 10px 7px;
+    background-color: @form-input-background--light;
+    border-radius: @input-radius;
+}
+
+.form-item__tag {
+    display: flex;
+    margin: 3px 3px 0 0;
+
+    border-radius: 2px;
+    background-color: @color--tag;
+    color: #fff;
+    line-height: 1.2;
+
+    &.is-active {
+        outline: 1px auto @color--danger;
+    }
+}
+
+.form-item__tag-text {
+    padding: 2px 5px;
+    font-size: @font-size--xsmall;
+}
+
+.form-item__tag-remove {
+    display: flex;
+    align-items: center;
+    padding: 0 3px 0 3px;
+    border-radius: 2px;
+    font-size: 10px;
+    font-weight: 800;
+    text-transform: uppercase;
+
+    &:hover {
+        cursor: pointer;
+        background-color: darken(@color--tag, 20%);
+    }
+}
+
+/**
+ * <form-text-tags> with tags
+ */
+.form-item--tags:not(.form-item--tags-filled) {
+
+    .form-item__input {
+        .visually-hidden;
+    }
+}
+
+.form-item--tags-filled {
+    .form-item__tags {
+        border-bottom-left-radius: 0;
+        border-bottom-right-radius: 0;
+    }
+
+    .form-item__input {
+        padding-top: 0;
+        border-top-right-radius: 0;
+        border-top-left-radius: 0;
+        display: block;
+    }
+}
