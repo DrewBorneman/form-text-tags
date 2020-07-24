@@ -1,4 +1,4 @@
-# @drewborneman/form-text-tags
+# form-text-tags
 
 A simple tagged textbox Vue.js component derived from the @odyzeo/form-autocomplete
 component.
@@ -8,13 +8,13 @@ component.
 ### npm
 
 ```
-npm install --save @drewborneman/form-text-tags
+npm install --save form-text-tags
 ```
 
 ### yarn
 
 ```
-yarn add @drewborneman/form-text-tags
+yarn add form-text-tags
 ```
 
 Import the component where you want to use it and register it:
