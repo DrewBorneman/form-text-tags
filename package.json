@@ -11,6 +11,10 @@
   ],
   "author": "Odyzeo <drew.borneman@odyzeo.com> (https://odyzeo.com)",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/drewborneman/form-text-tags.git"
+  },
   "files": [
     "dist/*",
     "src/*",
