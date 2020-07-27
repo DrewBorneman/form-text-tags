@@ -25,7 +25,7 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "build-lib": "vue-cli-service build --target lib --name form-text-tags ./src/components/formTextTags.vue",
+    "build-lib": "vue-cli-service build --target lib --name form-text-tags ./src/components/FormTextTags.vue",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {},
