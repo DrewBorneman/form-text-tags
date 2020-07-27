@@ -171,10 +171,6 @@
             onFocus() {
                 this.focus = true;
 
-                if (!this.hideTextOnBlur) {
-                    this.onInput();
-                }
-
                 if (!this.blurOnAdd) {
                     document.addEventListener('click', this.offClick);
                 }
