@@ -1,6 +1,6 @@
 {
   "name": "form-text-tags",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "Odyzeo form tagged textbox component with Vue",
   "main": "dist/form-text-tags.umd.js",
   "keywords": [
